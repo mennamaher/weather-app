@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class=" bg-dark">
+
+        <nav class="navbar navbar-expand-lg  fs-5 ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png"  class="navimg"></a>
+                <div class=" d-flex flex-column">
+                    <span class=" text-white small">Weather</span>
+                    <span class=" text-white fw-lighter small">tagline goes here</span>
+                </div>
+            <button
+                class="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#navbarNav"aria-controls="navbarNav"aria-expanded="false"aria-label="Toggle navigation">
+                
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-white" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <div class="section imgg d-flex justify-content-center align-items-center ">
+            <input id="search" type="search" placeholder="Find Your Location...." 
+            class=" bg-dark rounded-5 w-75 p-3 position-relative border border-0 text-white">
+            <button class=" position-absolute srch rounded-4 bg-primary text-white p-2 px-3 border border-0">Search</button>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="row justify-content-center pb-5">
+
+                    <div class=" col-lg-4 col-sm-12 bg text-white rounded-start-4 p-4">
+                        <div class=" card-header d-flex justify-content-between shadow pb-4">
+                            <span id="today-name">wednesday</span>
+                            <div>
+                            <span id="today-num">3</span>
+                            <span id="today-month">jul</span>
+                            </div>
+                        </div>
+                        <p id="today-location" class=" fs-4">cairo</p>
+                        <span id="today-temp" class=" display-1 fw-bold">25.1 </span>
+                        <span class=" display-1 fw-bold"> <sup>o</sup>c</span>
+                        <br>
+                        <img src="images/113.png" alt="im" id="today-img">
+                        <p id="today-txt" class=" text-info">sunny</p>
+                        <div class=" d-flex gap-2">
+                            <span id="humatidy">20</span>
+                            <span id="wind">18</span>
+                            <span id="direction">east</span>
+                        </div>
+                    </div>
+
+                    <div class=" col-lg-4 col-sm-12 bg2 text-white rounded-end-4 p-4 text-center">
+                        <div class=" card-header d-flex justify-content-center shadow">
+                            <span class="nextDay-name">wednesday</span>
+                        </div>
+                        <img src="images/113.png" alt="img" class=" pt-3 nextDay-img">
+                        <div class="">
+                            <span class=" nextDay-max-temp display-4 fw-bold">20.1 </span>
+                            <span class=" display-4 fw-bold"> <sup>o</sup>c</span>
+                        </div>
+                        <span class="nextDay-min-temp">26</span>
+                        <span > <sup>o</sup>c</span>
+                        <p class=" nextDay-txt text-info">sunny</p>
+                        
+                    </div>
+
+                    <div class=" col-lg-4 col-sm-12 bg text-white rounded-end-4 p-4 text-center">
+                        <div class=" card-header d-flex justify-content-center shadow">
+                            <span class="nextDay-name">wednesday</span>
+                        </div>
+                        <img src="images/113.png" alt="img" class=" pt-3 nextDay-img">
+                        <div class="">
+                            <span class=" nextDay-max-temp display-4 fw-bold">20.1 </span>
+                            <span class=" display-4 fw-bold"> <sup>o</sup>c</span>
+                        </div>
+                        <span class="nextDay-min-temp">26</span>
+                        <span > <sup>o</sup>c</span>
+                        <p class=" nextDay-txt text-info">sunny</p>
+                        
+                    </div>
+
+                
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer pt-5 pb-5">
+            <div class=" d-flex justify-content-around align-items-center pb-3 ">
+                <input type="search" placeholder="Enter Your Email To Subscibe " 
+            class=" bg-dark rounded-5 w-50 p-3 position-relative border border-0">
+            <button class=" srch2 rounded-4 bg-primary text-white p-2 px-3 border border-0">Subscribe</button>
+            
+            <div class=" social d-flex gap-3">
+                <a href="#"><i class="fa-brands fa-facebook-f fs-5"></i></li></a>
+                <a href="#"><i class="fa-brands fa-twitter fs-5"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g fs-5"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p fs-5"></i></a>
+            </div>
+        </div>
+            
+            <p class=" text-white small px-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

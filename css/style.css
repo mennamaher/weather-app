@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.imgg{
+    background-image: url(../images/banner.png);
+    height: 300px;
+}
+
+.srch{
+    right: 14%;
+}
+/* .srch2{
+    right: 40%;
+} */
+
+.footer, .bg{
+    background-color: #262936;
+}
+.section, .bg2{
+    background-color: #1E202B;
+}
+
+i{
+    color: #009AD8;
+}
+.social .a{
+    width: 35%;
+    height: 35%;
+    background-color: black;
+    
+}
